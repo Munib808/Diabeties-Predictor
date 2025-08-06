@@ -34,7 +34,7 @@ This project contains the following files:
 | `A1c`     | Hemoglobin A1c (%) |
 | `B.S.R`   | Blood Sugar Random (mg/dL) |
 | `vision`  | Vision issues (1 = Yes, 0 = No) |
-| `Exr`     | Exercise level |
+| `Exr`     | Exercise level (in Minutes) |
 | `dipsia`  | Excessive thirst (1 = Yes, 0 = No) |
 | `uria`    | Sugar/protein in urine (1 = Yes, 0 = No) |
 | `neph`    | Kidney complications (1 = Yes, 0 = No) |
@@ -47,7 +47,7 @@ This project contains the following files:
 
 Exploration and visualization were performed using the following tools:
 
--  **Pie Charts** – Distribution of categorical features (e.g., Gender, Region)
+-  **Pie Charts** – Distribution of categorical features (Distribution of Target)
 -  **Barplots & Countplots** – Categorical comparison with Outcome
 -  **Histograms** – Distribution of numeric variables like Age, BMI, B.S.R
 -  **Boxplots** – Detection of outliers
