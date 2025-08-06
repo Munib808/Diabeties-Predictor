@@ -69,7 +69,7 @@ The following models were applied and evaluated:
 - `VotingClassifier` (Ensemble of top models)
 - `StackingClassifier` (Combining base learners)
 
-### ⚙️ Evaluation Metrics:
+### Evaluation Metrics:
 - Accuracy
 - Confusion Matrix
 - Classification Report (Precision, Recall, F1-Score)
