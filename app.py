@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import joblib
-from streamlit_lottie import st_lottie
 
 
 # 📁 Load trained model (trained without scaler)
@@ -71,3 +70,4 @@ if predict_button:
     else:
         st.success(f"🟢 Prediction: The patient is **Not Diabetic**. Keep staying healthy!")
         st.write(f"🧪 Probability of not being diabetic: **{proba[0] * 100:.2f}%**")
+
