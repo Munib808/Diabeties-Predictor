@@ -73,3 +73,6 @@ The following models were applied and evaluated:
 - Accuracy
 - Confusion Matrix
 - Classification Report (Precision, Recall, F1-Score)
+
+### Live App
+- https://diabeties-predictor-8yuszl7famckyjpzdeppja.streamlit.app/
