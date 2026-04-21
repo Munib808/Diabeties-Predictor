@@ -265,15 +265,49 @@ p, span, li, .stMarkdown p, label {
     font-size: 14px !important;
 }
 [data-testid="stNumberInput"] input {
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(255,255,255,0.08) !important;
+    background: rgba(15, 23, 42, 0.9) !important;
+    border: 1px solid rgba(56, 189, 248, 0.2) !important;
     border-radius: 10px !important;
-    color: #E2E8F0 !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
     font-family: 'JetBrains Mono', monospace !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    caret-color: #38BDF8 !important;
 }
 [data-testid="stNumberInput"] input:focus {
-    border-color: rgba(56, 189, 248, 0.4) !important;
-    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.1) !important;
+    border-color: rgba(56, 189, 248, 0.5) !important;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.12) !important;
+    background: rgba(15, 23, 42, 1) !important;
+}
+[data-testid="stNumberInput"] input::placeholder {
+    color: #475569 !important;
+    -webkit-text-fill-color: #475569 !important;
+}
+/* Number input +/- buttons */
+[data-testid="stNumberInput"] button {
+    color: #38BDF8 !important;
+    border-color: rgba(56, 189, 248, 0.15) !important;
+    background: rgba(56, 189, 248, 0.05) !important;
+    transition: all 0.2s ease !important;
+}
+[data-testid="stNumberInput"] button:hover {
+    background: rgba(56, 189, 248, 0.12) !important;
+    border-color: rgba(56, 189, 248, 0.3) !important;
+}
+/* Slider track & thumb */
+[data-testid="stSlider"] [data-testid="stTickBar"] { background: transparent !important; }
+[data-testid="stSlider"] div[role="slider"] {
+    background: #38BDF8 !important;
+    border-color: #38BDF8 !important;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.3) !important;
+}
+/* Slider min/max labels */
+[data-testid="stSlider"] [data-testid="stTickBarMin"],
+[data-testid="stSlider"] [data-testid="stTickBarMax"] {
+    color: #475569 !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 11px !important;
 }
 
 /* Form submit button */
